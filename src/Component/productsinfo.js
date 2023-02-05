@@ -17,6 +17,11 @@ function Productinfo(){
     }
     console.log(productObject.image);
     const url = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/"+productObject.image;
+    const leatherimg = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/leather icon 2.png";
+    const leathermainicon = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/leathermainicon.png";
+    const hangtag = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/hangtagicon.png";
+    const packaging = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/packaging.jpeg";
+    const polybag = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/polybag.png"
     return(
         <div>
             <Header></Header>
@@ -34,18 +39,22 @@ function Productinfo(){
                 </div>
                 })} */}
                 <div className="product-item1 col-4" onClick={()=>gotonext(0)}>
+                        <img className="producticon" src={hangtag}/>
                         <p className="productname">{data[1].products[0].name}</p>
                 </div>
                 <div className="product-item2 col-4" onClick={()=>gotonext(1)}>
                         <p className="productname">{data[1].products[1].name}</p>
                 </div>
                 <div className="product-item3 col-4" onClick={()=>gotonext(2)}>
+                    <img className="producticon" />
                     <p className="productname">{data[1].products[2].name}</p>
                 </div>
                 <div className="product-item4 col-4" onClick={()=>gotonext(3)}>
+                    <img className="producticon" src={packaging} />
                     <p className="productname">{data[1].products[3].name}</p>
                 </div>
                 <div className="product-item5 col-4" onClick={()=>gotonext(4)}>
+                    <img className="producticon" src={polybag}></img>
                     <p className="productname">{data[1].products[4].name}</p>
                 </div>
                 {/* <div className="product-item6 col-4" onClick={()=>gotonext(5)}>
