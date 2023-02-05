@@ -1,0 +1,347 @@
+.logo{
+  margin-left: -20% !important;
+}
+
+.hamburger{
+  max-width: 3% !important;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: auto;
+  cursor: pointer;
+}
+
+.nav-link{
+  /* font-size: 3vw !important;
+  color: black !important;
+  font-weight: 600 !important; */
+  max-width: 7% !important ;
+  height: auto;
+}
+
+.mockup{
+  width: 100%;
+  margin-top: -6.2%;
+}
+
+.bg{
+  background-color: #fffefd;
+}
+
+.servicerow{
+  margin-top: 10% !important;
+  cursor: pointer;
+}
+
+.consult{
+  font-size: 2.5vw;
+  font-weight: 400;
+  text-align: right;
+  font-family: Georgia,serif;
+  margin-top: 2%;
+}
+
+.consultimg{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+
+.consultimg2{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -47%;
+}
+
+.liitem{
+  cursor: pointer;
+}
+
+.styles_overlay-wrapper__O0Zm8 .styles_overlay-content__1qZR_ {
+  /* padding: 2em;
+  background-color: white;
+  
+  position: relative;
+  margin: auto;
+  transition: opacity 0.85s; */
+  max-width: 100% !important;
+  width: 100% !important;
+  height: 120% !important;
+}
+
+.overlayservices{
+  font-size: 2.6vw;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-top: 8% !important;
+    color: #579495;
+    font-family: 'Barlow', sans-serif;
+}
+
+.overlayproduct{
+  font-size: 2.6vw;
+    margin-top: 17%;
+    color: #579495;
+    font-weight: 300;
+    font-family: 'Barlow', sans-serif;
+}
+
+.overlayproductitem{
+  font-size: 1.5vw;
+  cursor: pointer;
+  color: #579495; 
+  font-weight: bold !important;
+  font-family: 'Noto Sans Georgian', sans-serif;
+  font-family: 'Noto Serif Georgian', serif;
+}
+
+hr{
+  border-top: 4px solid !important;
+  color: #4b7f80 !important;
+}
+
+.productitem{
+  margin-top: 9% !important;
+}
+
+.consultimg1{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -57%;
+}
+
+.vision{
+  
+  /* background-color: rgb(63 122 126); */
+  text-align: center;
+  font-size: 1.5vw;
+  color: rgb(63 122 126);
+  margin-top: -20%;
+  font-weight: 600;
+  line-height: 2;
+  
+}
+
+.vision2{
+  
+  /* background-color: rgb(63 122 126); */
+  text-align: center;
+  font-size: 1.5vw;
+  color: rgb(63 122 126);
+  /* margin-top: -20%; */
+  /* font-weight: 100; */
+  line-height: 2;
+  margin-bottom : 10%;
+  text-transform: capitalize;
+}
+
+.vebru{
+  font-size: 16vw;
+  font-weight: 600;
+  color: #dfe8e8;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.team{
+  margin-left: 45%;
+}
+
+#li{
+  list-style-type: none;
+  font-size: 1.1vw;
+  padding-bottom: 3%;
+  text-align: left;
+  color: #fefcf0;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 2;
+}
+
+.footerh5{
+  color: #000000;
+  padding-left: 18.5%;
+}
+
+.subs{
+  color: #000000;
+}
+
+#footer{
+  margin-top: 7%;
+  padding-top: 2%;
+  background-color: rgb(63 122 126); 
+  padding-bottom: 1%;
+}
+.card-text1{
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  color: #000000;
+}
+
+.product-item1{
+  background-color: #579495;
+  height : 15rem;
+}
+
+.product-item2{
+  background-color: #86b7b8;
+  height : 15rem;
+}
+
+.product-item3{
+  background-color: #79aaac;
+  height : 15rem;
+  
+}
+
+.product-item4{
+  background-color: #a4c9ca;
+  height : 15rem;
+}
+
+.product-item5{
+  background-color: #62a1a3;
+  height : 15rem;
+}
+
+.product-item6{
+  background-color: #427071;
+  height : 15rem;
+}
+
+/* .product-item2{
+  background-color: #b4d2d3;
+  height : 15rem;
+} */
+
+.productname{
+  font-size: 2.8vw;
+  text-align: center;
+  color: #fefcf0;
+  font-family: 'Noto Sans Georgian', sans-serif;
+  font-family: 'Noto Serif Georgian', serif;
+  font-weight: 1000;
+  color: #fefcf0;
+}
+
+.listofproduct{
+  display: flex;
+}
+
+.icons{
+  height: 2rem;
+  width: 2rem;;
+}
+
+.heading3{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 2%;
+  font-size: 1.3vw;
+  color: #fefcf0;
+}
+
+.text3{
+  text-align: center;
+  /* padding-top: 1% !important; */
+  font-family: 'Nunito', sans-serif;
+  color: #fefcf0;
+  font-size: 1.1vw;
+}
+
+.whatwedo{
+  text-align: center;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  color: rgb(63 122 126);
+  margin-top: 5%;
+  font-weight: 900;
+  line-height: 2;
+}
+
+.bg{
+  height: auto;
+    max-width: 43%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.portfolio{
+  color: white;
+  margin-top: 20%;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.icons{
+  margin-top: 9%;
+  height: 4rem;
+  width: 4rem;;
+}
+
+.footerlogo{
+  max-width: 8rem;
+  height: auto;
+}
+
+.footerheading{
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #fefcf0;
+  font-family: 'helvetica';
+}
+
+.services{
+  text-align: center;
+  font-size: 4vw;
+  color: #000000;
+  font-weight: 700;
+  margin-top: 10% !important;
+}
+
+.serviceitem{
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-top: 5%;
+}
+
+.icon2{
+  margin-top: 15%;
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-img{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width : 600px) {
+    .mockup{
+      max-width: 100%;
+      margin-top: -10.8%;
+    }
+
+    /* .navbar-brand{
+      margin-right: 82% !important;
+    } */
+}
+
+
