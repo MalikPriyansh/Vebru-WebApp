@@ -36,7 +36,7 @@ function HomeScreen(){
                             <div data-aos = "zoom-in" className='row servicerow'>
                                 <div className='col-1'></div>
                                 <div className='col-4' onClick={()=>gotoProductPage(0)}>
-                                    <motion.img className='consultimg'whileHover={{scale:1.1,boxShadow:"8px 8px 8px 8px rgb(63 122 126)"}} src={data[1].products[0].image}></motion.img>
+                                    <motion.img className='consultimg'whileHover={{scale:1.1,boxShadow:"5px 10px 8px  rgb(63 122 126)"}} src={data[1].products[0].image}></motion.img>
                                     <p className='consult'>{data[1].products[0].name}</p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ function HomeScreen(){
                                     if(index!=0) return index%2==0?<div data-aos = "zoom-in" className='row servicerow'>
                                         <div className='col-1'></div>
                                         <div className='col-4' onClick={()=>gotoProductPage(index)}>
-                                            <motion.img className='consultimg2'whileHover={{scale:1.1,boxShadow:"8px 8px 8px 8px rgb(63 122 126)"}} src={item.image}></motion.img>
+                                            <motion.img className='consultimg2'whileHover={{scale:1.1,boxShadow:"5px 10px 8px rgb(63 122 126)"}} src={item.image}></motion.img>
                                             <p className='consult'>{item.name}</p>
                                         </div>
                                         <div className='col-2'></div>
@@ -58,7 +58,7 @@ function HomeScreen(){
                                     </div>
                                     {/* <div className='col-1'></div> */}
                                     <div className='col-4' onClick={()=>gotoProductPage(index)}>
-                                        <motion.img className='consultimg1' whileHover={{scale:1.1,boxShadow:"8px 8px 8px 8px rgb(63 122 126)"}} src={item.image}></motion.img>
+                                        <motion.img className='consultimg1' whileHover={{scale:1.1,boxShadow:"5px 10px 8px rgb(63 122 126)"}} src={item.image}></motion.img>
                                         <p className='consult'>{item.name}</p>
                                     </div>
                                 </div>

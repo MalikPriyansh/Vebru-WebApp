@@ -20,7 +20,7 @@
 
 .mockup{
   width: 100%;
-  margin-top: -6.2%;
+  margin-top: -7.1%;
 }
 
 .bg{
@@ -81,6 +81,7 @@
     margin-top: 8% !important;
     color: #579495;
     font-family: 'Barlow', sans-serif;
+    cursor: pointer;
 }
 
 .overlayproduct{
@@ -139,7 +140,7 @@ hr{
   /* margin-top: -20%; */
   /* font-weight: 100; */
   line-height: 2;
-  margin-bottom : 10%;
+  /* margin-bottom : 10%; */
   text-transform: capitalize;
 }
 
@@ -199,33 +200,33 @@ hr{
 
 .product-item1{
   background-color: #579495;
-  height : 15rem;
+  height : 18rem;
 }
 
 .product-item2{
   background-color: #86b7b8;
-  height : 15rem;
+  height : 18rem;
 }
 
 .product-item3{
   background-color: #79aaac;
-  height : 15rem;
+  height : 18rem;
   
 }
 
 .product-item4{
   background-color: #a4c9ca;
-  height : 15rem;
+  height : 18rem;
 }
 
 .product-item5{
   background-color: #62a1a3;
-  height : 15rem;
+  height : 18rem;
 }
 
 .product-item6{
   background-color: #427071;
-  height : 15rem;
+  height : 18rem;
 }
 
 /* .product-item2{
@@ -311,6 +312,7 @@ hr{
   font-weight: 700;
   color: #fefcf0;
   font-family: 'helvetica';
+  cursor: pointer;
 }
 
 .services{
@@ -338,8 +340,33 @@ hr{
 }
 
 .product-img{
+  margin-top: 5%;
   max-width: 100%;
   height: auto;
+}
+
+.contactus{
+  height: 12rem;
+  background-color: #579495;
+  margin-bottom: 6%;
+}
+
+.contactus p {
+  text-align: center;
+  font-size: 3vw;
+  color: #ffffff;
+  margin-top: 3%;
+  padding-top: 3%;
+}
+
+.address{
+  list-style-type: none;
+  color: #000000;
+  font-size: 1.7vw;
+}
+
+.company{
+  margin-top: 8%;
 }
 
 @media (max-width : 600px) {

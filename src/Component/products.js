@@ -17,6 +17,10 @@ function Products(){
         navigate("/productinfo/"+ind);
     }
 
+    const gotoOtherProducts = ()=>{
+        navigate("/otherproducts");
+    }
+
     return(
         <div>
             <Header></Header>
@@ -32,7 +36,7 @@ function Products(){
                         data[1].products.map((item,index)=>{
                             return index%2==0 ?<div data-aos = "zoom-in" className='row servicerow' onClick={()=>gotoProductPage(index)}>
                                 <div className='col-6'>
-                                    <motion.img className='consultimg'whileHover={{scale:1.1,boxShadow:"8px 8px 8px 8px rgb(63 122 126)"}} src={item.image}></motion.img>
+                                    <motion.img className='consultimg'whileHover={{scale:1.1,boxShadow:"5px 10px 8px rgb(63 122 126)"}} src={item.image}></motion.img>
                                     <p className='consult'>{item.name}</p>
                                 </div>
                                 <div className="col-6"></div>
@@ -40,13 +44,21 @@ function Products(){
                             <div data-aos = "zoom-in" className='row servicerow' onClick={()=>gotoProductPage(index)}>
                             <div className="col-6"></div>
                             <div className='col-6'>
-                                <motion.img className='consultimg'whileHover={{scale:1.1,boxShadow:"8px 8px 8px 8px rgb(63 122 126)"}} src={item.image}></motion.img>
+                                <motion.img className='consultimg'whileHover={{scale:1.1,boxShadow:"5px 10px 8px rgb(63 122 126)"}} src={item.image}></motion.img>
                                 <p className='consult'>{item.name}</p>
                             </div>
                         </div>
-
                         })
-                    }    
+                    } 
+                    <div data-aos = "zoom-in" className="row servicerow" onClick={()=>gotoOtherProducts()}>
+                       <div className="col-6"></div>
+                        <div className='col-6'>
+                            <motion.img className='consultimg'whileHover={{scale:1.1,boxShadow:"5px 10px 8px rgb(63 122 126)"}} src="/images/otherproducts4.png"></motion.img>
+                            <p className='consult'>Other Products</p>
+                        </div> 
+                        <div className="col-6"></div>
+                    </div>
+                      
                 </div>
             </div>
             <Footer></Footer>

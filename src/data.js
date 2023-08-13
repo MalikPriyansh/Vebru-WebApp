@@ -30,12 +30,12 @@ const data = [
                 name : "PolyBags",
                 description : "",
                 sub_categories : [],
-                image : "images/polybag.jpg"
+                image : "images/polybag.png"
             },
             {
                 name : "Consultancy",
                 description : "",
-                image : "images/stockmanagement.jpg"
+                image : "images/consulting.jpg"
             },
         ]
     },
@@ -67,29 +67,12 @@ const data = [
                 image : "images/packaging.jpg"
             },
             {
-                name : "PolyBags",
+                name : "PolyBag",
                 description : "",
                 sub_categories : [],
                 image : "images/polybag.jpg"
-            },
-            {
-                name : "Variable Data",
-                description : "",
-                sub_categories : [],
-                images : ""
-            },
-            {
-                name : "Woven Tapes",
-                description : "",
-                sub_categories : [],
-                images : ""
-            },
-            {
-                name : "Leather",
-                description : "",
-                sub_categories : [],
-                images : ""
             }
+            
         ]
     }
 ]

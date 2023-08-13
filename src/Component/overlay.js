@@ -9,6 +9,22 @@ function Overlayfunc(){
     const gotoProductPage = (ind)=>{
         navigate("/productinfo/"+ind);
     }
+
+    const gotoCompany = ()=>{
+        navigate("/company");
+    }
+
+    const gotoServices =()=>{
+        navigate("/services");
+    }
+
+    const gotoHomePage = ()=>{
+        navigate('/');
+    }
+
+    const gotoContacts = ()=>{
+        navigate("/contacts");
+    }
     return (
         <div className="container">
             <div className="row">
@@ -16,11 +32,10 @@ function Overlayfunc(){
             </div>
             <div className="row">
                 <div className="col-5 overlayservices">
-                    <p>HOMEPAGE</p>
-                    <p>COMPANY</p>
-                    <p>OUR WORK</p>
-                    <p>CONTACTS</p>
-                    <p>WEBSHOP</p>
+                    <p onClick={gotoHomePage}>HOMEPAGE</p>
+                    <p onClick={gotoCompany}>COMPANY</p>
+                    <p onClick={gotoServices}>OUR WORK</p>
+                    <p onClick={gotoContacts}>CONTACTS</p>
                 </div>
                 <div className="col-5">
                     <p className="overlayproduct">PRODUCTS</p>

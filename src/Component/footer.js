@@ -12,9 +12,18 @@ function Footer(){
         navigate("/services");
     }
 
+    const gotoCompany = ()=>{
+        navigate("/company");
+    }
+
     const gotoProductPage = (ind)=>{
         navigate("/productinfo/"+ind);
     }
+
+    const gotoOtherProducts = ()=>{
+        navigate("/otherproducts");
+    }
+
     return (
         <div id='footer'>
                 <div className="row" >
@@ -26,16 +35,16 @@ function Footer(){
                     
                     <div className="col-lg-2 col-4">
                         <ul id="li">
-                            <li className="footerheading">
+                            <li className="footerheading" >
                                 COMPANY
                             </li>
-                            <li className="liitem" >
+                            <li className="liitem" onClick={()=>gotoCompany()}>
                                 Our Values
                             </li>
-                            <li className="liitem" >
+                            <li className="liitem" onClick={()=>gotoCompany()}>
                                 Mission
                             </li>
-                            <li className="liitem" >
+                            <li className="liitem" onClick={()=>gotoCompany()}>
                                 Vision
                             </li>
                         </ul>
@@ -45,29 +54,23 @@ function Footer(){
                             <li className="footerheading" onClick={()=>gotoProducts()}>
                                 PRODUCTS
                             </li>
-                            <li className="liitem" onClick={()=>gotoProductPage(0)}>
+                            <li className="liitem" onClick={()=>gotoProductPage(1)}>
                                 Label
                             </li>
-                            <li className="liitem" onClick={()=>gotoProductPage(1)}>
+                            <li className="liitem" onClick={()=>gotoProductPage(0)}>
                                 Hangtags
                             </li>
-                            <li className="liitem" onClick={()=>gotoProductPage(2)}>
+                            <li className="liitem" onClick={()=>gotoProductPage(3)}>
                                 Packaging
                             </li>
-                            <li className="liitem" onClick={()=>gotoProductPage(3)}>
-                                Variable Data
-                            </li>
-                            <li className="liitem" onClick={()=>gotoProductPage(4)}>
+                            <li className="liitem" onClick={()=>gotoProductPage(2)}>
                                 Patches
                             </li>
-                            <li className="liitem" onClick={()=>gotoProductPage(5)}>
+                            <li className="liitem" onClick={()=>gotoProductPage(2)}>
                                 Badges
                             </li>
-                            <li className="liitem" onClick={()=>gotoProductPage(6)}>
-                                Leather
-                            </li>
-                            <li className="liitem" onClick={()=>gotoProductPage(7)}>
-                                Metals
+                            <li className="liitem" onClick={()=>gotoOtherProducts()}>
+                                Other Products
                             </li>
                         </ul>
                     </div>
@@ -96,7 +99,7 @@ function Footer(){
                                 B-4, Sector-60, Noida, Distt. : Gautam Buddha Nagar, Uttar Pradesh. -201301
                             </li> 
                             <li>
-                                T : +91 9891128295
+                                T : +91 8287317599
                             </li> 
                             <li>
                                 E : info@vebru.in
