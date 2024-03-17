@@ -1,5 +1,5 @@
 import { useAnimation } from "framer-motion";
-import ReacT from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import data from "../data";
 
@@ -33,7 +33,7 @@ function Overlayfunc(){
             <div className="row">
                 <div className="col-5 overlayservices">
                     <p onClick={gotoHomePage}>HOMEPAGE</p>
-                    <p onClick={gotoCompany}>COMPANY</p>
+                    <p onClick={()=>navigate("/company")}>COMPANY</p>
                     <p onClick={gotoServices}>OUR WORK</p>
                     <p onClick={gotoContacts}>CONTACTS</p>
                 </div>

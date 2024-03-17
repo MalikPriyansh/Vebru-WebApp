@@ -14,8 +14,6 @@ function HomeScreen(){
         },[]);
 
         const navigate = useNavigate();
-        
-
         const gotoProductPage = (ind)=>{
             ind!=5 ? navigate("/productinfo/"+ind) : navigate("/services");
         }

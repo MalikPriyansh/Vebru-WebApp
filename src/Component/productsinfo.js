@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./navbar";
 import data from '../data';
 import Aos from 'aos';
@@ -11,6 +11,7 @@ import Footer from "./footer";
 function Productinfo(){
     const location = useLocation();
     const arr = location.pathname.split("/");
+    console.log(arr);
     const productObject = data[1].products[arr[2]];
     const navigate = useNavigate();
     const gotonext = (ind)=>{
@@ -20,42 +21,54 @@ function Productinfo(){
     const gotoOtherProduct = ()=>{
         navigate("/otherproducts")
     }
-    console.log(productObject.image);
-    const url = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/"+productObject.image;
+
+  useEffect(() => {
+    
+      window.scrollTo(0, 0);
+
+    // Cleanup the listener when the component unmounts
+  });
+    console.log(productObject);
+    const url1 = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/"+productObject.carousel[0];
+    const url2 = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/"+productObject.carousel[1];
+    const url3 = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/"+productObject.carousel[2];
     const leatherimg = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/leather icon 2.png";
     const leathermainicon = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/leathermainicon.png";
     const hangtag = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/hangtagicon.png";
     const packaging = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/packaging.jpeg";
-    const polybag = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/polybag.png"
+    const polybag = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/polybag.png";
+    const otherproductimg = "https://vebruassets.s3.ap-northeast-1.amazonaws.com/images/otherproducts5.png"
     console.log(data);
     return(
         <div>
             <Header></Header>
             <div className="container">
-                <p className="whatwedo" >{productObject.name}</p>
+                <p className="whatwedo" id="productName">{productObject.name}</p>
                 <p className='vision2' >{productObject.description}</p>
             </div> 
-            {/* <img className="product-img" src= {url}/>   */}
             <Carousel >
               <Carousel.Item interval={1000}>
                 <img
                   className="product-img"
-                  src={url}
+                  src={url1}
                   alt="First slide"
+                  height={15}
                 />
               </Carousel.Item>
               <Carousel.Item interval={1000}>
                 <img
                   className=" product-img"
-                  src={url}
+                  src={url2}
                   alt="First slide"
+                  height={30}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className=" product-img"
-                  src={url}
+                  src={url3}
                   alt="First slide"
+                  height={30}
                 />
               </Carousel.Item>
             </Carousel>
@@ -88,6 +101,7 @@ function Productinfo(){
                     <p className="productname">{data[1].products[4].name}</p>
                 </div>
                 <div className="product-item6 col-4" onClick={()=>gotoOtherProduct()}>
+                  <img className="producticon" src={otherproductimg}></img>
                     <p className="productname">Other Products</p>
                 </div>
             </div>  

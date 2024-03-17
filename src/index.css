@@ -1,3 +1,7 @@
+body{
+  overflow-y: scroll;
+}
+
 .logo{
   margin-left: -20% !important;
 }
@@ -201,32 +205,38 @@ hr{
 .product-item1{
   background-color: #579495;
   height : 18rem;
+  cursor: pointer;
 }
 
 .product-item2{
   background-color: #86b7b8;
   height : 18rem;
+  cursor: pointer;
 }
 
 .product-item3{
   background-color: #79aaac;
   height : 18rem;
+  cursor: pointer;
   
 }
 
 .product-item4{
   background-color: #a4c9ca;
   height : 18rem;
+  cursor: pointer;
 }
 
 .product-item5{
   background-color: #62a1a3;
   height : 18rem;
+  cursor: pointer;
 }
 
 .product-item6{
   background-color: #427071;
   height : 18rem;
+  cursor: pointer;
 }
 
 /* .product-item2{
@@ -342,7 +352,8 @@ hr{
 .product-img{
   margin-top: 5%;
   max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 40em;
 }
 
 .contactus{

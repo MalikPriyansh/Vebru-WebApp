@@ -8,6 +8,7 @@ function Company(){
         <>
             <Header></Header>
             <div className="company container">
+                <p className="whatwedo" id="mission">About Us</p>
                 <p className="vision2">We are the team of trims and packaging experts whom you can trust for the packaging and branding solutions for fashion industry.<br/> Based in ncr region of india , we are one of the fastest growing and reliable packaging house started by a team of highly experienced and technical experts of this industy. <br/>We are supporting reknowned brands with our services and diverse range of packaging products used for branding in fashion industry. <br />Being the experts we are always focused on innovation and new product developments using latest materials and techniques</p>
             </div>
             <div className="container">
